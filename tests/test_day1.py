@@ -1,4 +1,3 @@
-from aoc2020 import __version__
 from aoc2020.day1 import find_two_entry_sum_2020, find_three_entry_sum_2020
 
 

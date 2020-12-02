@@ -18,7 +18,7 @@ def find_three_entry_sum_2020(entries: list[int]) -> tuple[int, int, int]:
 
 
 if __name__ == '__main__':
-    with open('day1_1.txt') as f:
+    with open('day1.txt') as f:
         inp: list[str] = f.readlines()
         inp_int = [int(x) for x in inp]
 
