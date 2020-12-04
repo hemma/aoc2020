@@ -21,10 +21,6 @@ def height_rule(x: str) -> bool:
     return False
 
 
-pattern = '^a...s$'
-test_string = 'abyss'
-result = re.match(pattern, test_string)
-
 PASSPORT_RULES_PART_TWO = {'byr': lambda x: 1920 <= int(x) <= 2002,
                            'iyr': lambda x: 2010 <= int(x) <= 2020,
                            'eyr': lambda x: 2020 <= int(x) <= 2030,
